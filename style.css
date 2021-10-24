@@ -1,0 +1,38 @@
+/*body {
+    background-image: url("Template_1.png");
+    background-size: cover;
+}*/
+body{
+    margin: 0;
+}
+header {
+    width: 100%;
+    background-color: #eeeeee;
+}
+.container{
+    width: 80%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.image-lock {
+    width: 23%;
+    text-align: center;
+}
+.image-lock img {
+    width: 33.2%;
+}
+.ul-box {
+    width: 77%;
+    height: 100%;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-around;
+}
+li {
+    font-size: 0.85em;
+    color: #666666;
+    font-family: "Noto Sans";
+}
